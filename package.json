@@ -18,5 +18,5 @@
     "url": "https://github.com/scott-currie/portfolio/issues"
   },
   "homepage": "https://github.com/scott-currie/portfolio#readme",
-  "dependencies: {"express": "*"}
+  "dependencies": {"express": "*"}
 }
