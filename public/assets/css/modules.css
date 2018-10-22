@@ -2052,8 +2052,9 @@ button,
     }
 
     #main > section.one {
-      background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
+      background-color: rgb(227, 231, 231);
+      /* background-image: url("../../images/banner.jpg"); */
+      /* background: linear-gradient(black, white); */
     }
 
     #main > section.two {

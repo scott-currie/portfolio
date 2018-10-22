@@ -20,7 +20,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 #top {
-  background-image: linear-gradient(to left bottom, #f8c405, #cba30f, #a18313, #7a6414, #554712);
+  background: linear-gradient(black, white);
 }
 
 article, aside, details, figcaption, figure,
