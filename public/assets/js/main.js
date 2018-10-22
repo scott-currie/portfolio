@@ -120,4 +120,18 @@
 					visibleClass: 'header-visible'
 				});
 
+  var i = -1;
+  (function carousel() {
+    let imgSources = [
+      'images/spaceneedle.jpg',
+      'images/whiteboard.jpg',
+      'images/waterway.jpg'
+    ];
+    i++;
+    if (i >= imgSources.length) i = 0;
+    let $container = $('#main > section.one');
+    console.log(`url(${imgSources[i]})`);
+    $container.css('background-image', `url(${imgSources[i]})`);
+    setTimeout(carousel, 3000);
+  })();
 })(jQuery);
