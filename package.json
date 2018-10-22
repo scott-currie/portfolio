@@ -17,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/scott-currie/portfolio/issues"
   },
-  "homepage": "https://github.com/scott-currie/portfolio#readme"
+  "homepage": "https://github.com/scott-currie/portfolio#readme",
+  "dependencies: {"express": "*"}
 }
