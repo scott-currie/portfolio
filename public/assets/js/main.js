@@ -130,7 +130,6 @@
     i++;
     if (i >= imgSources.length) i = 0;
     let $container = $('#main > section.one');
-    console.log(`url(${imgSources[i]})`);
     $container.css('background-image', `url(${imgSources[i]})`);
     setTimeout(carousel, 3000);
   })();
